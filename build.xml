@@ -15,10 +15,10 @@
                 </patternset>
 
             </fileset>
-            <fileset dir=".">
+            <fileset dir="public">
                 <patternset>
-                    <include name="public/css/**"/>
-                    <exclude name="public/css/*.css" />
+                    <include name="css/**"/>
+                    <exclude name="css/*.css" />
                 </patternset>
             </fileset>
         </delete>

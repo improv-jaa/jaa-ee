@@ -1,0 +1,6 @@
+{
+    "name":"jaa-v3",
+    "dependencies": {
+        "bootstrap-sass-official": ">= 3.3"
+    }
+}
