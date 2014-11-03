@@ -1,0 +1,27 @@
+// Core variables and mixins
+@import "../bower_components/bootstrap-sass/lib/variables";
+@import "../bower_components/bootstrap-sass/lib/mixins";
+
+// Reset
+@import "../bower_components/bootstrap-sass/lib/normalize";
+@import "../bower_components/bootstrap-sass/lib/print";
+
+// Core CSS
+@import "../bower_components/bootstrap-sass/lib/scaffolding";
+@import "../bower_components/bootstrap-sass/lib/type";
+@import "../bower_components/bootstrap-sass/lib/code";
+@import "../bower_components/bootstrap-sass/lib/grid";
+
+// Utility classes
+@import "../bower_components/bootstrap-sass/lib/utilities";
+@import "../bower_components/bootstrap-sass/lib/responsive-utilities";
+
+$text-color: #fff;
+$background-color: #000;
+$footer-text-color: rgba(255,255,255,.7);
+$content-shadow-color: rgba(0, 0, 0, 0.6);
+$text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+$bg-img: "../img/bg_dark.jpg";
+
+@import "base";

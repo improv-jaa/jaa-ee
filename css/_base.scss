@@ -1,10 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 a,
 a:focus,
 a:hover {
   color: $text-color;
   text-decoration: underline;
 }
-
 
 html,
 body {
@@ -14,6 +15,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 body {
@@ -51,8 +53,8 @@ body {
   text-align: left;
 }
 
-.no-underline {
-  text-decoration: none;
+.links-group {
+  font-variant: small-caps;
 }
 
 .content-box {
