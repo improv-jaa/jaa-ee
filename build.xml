@@ -7,7 +7,7 @@
 
     <target name="clean">
         <delete includeemptydirs="true">
-            <fileset dir="bower_components">
+            <fileset dir="public/bower_components">
                 <patternset>
                     <include name="**" />
                     <exclude name="jquery/dist/jquery.min.js" />
@@ -16,10 +16,9 @@
 
             </fileset>
             <fileset dir=".">
-                <include name=".gitignore" />
                 <patternset>
-                    <include name="css/**"/>
-                    <exclude name="*.css" />
+                    <include name="public/css/**"/>
+                    <exclude name="public/css/*.css" />
                 </patternset>
             </fileset>
         </delete>
