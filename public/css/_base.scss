@@ -29,13 +29,15 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
 }
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
+
 .cover-container {
   margin-right: auto;
   margin-left: auto;
@@ -58,7 +60,7 @@ body {
 }
 
 .content-box {
-  background-color:$content-shadow-color;
+  background-color: $content-shadow-color;
   padding: 1em;
   -webkit-box-shadow: 0 0 10px 2px $content-shadow-color;
   box-shadow: 0 0 10px 2px $content-shadow-color;
@@ -78,11 +80,9 @@ body {
 }
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
   color: $footer-text-color;
   font-size: .9em;
 }
-
 
 @media (min-width: 768px) {
 
@@ -104,4 +104,12 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+::selection {
+  background: $logo-yellow;
+}
+
+::-moz-selection {
+  background: $logo-yellow;
 }
