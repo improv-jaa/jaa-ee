@@ -1,0 +1,7 @@
+nginx:
+  image: tutum.co/anroots/jaa-web-3
+  ports:
+    - 80
+  environment:
+    VIRTUAL_HOST: jaa.ee
+  restart: on-failure:20
