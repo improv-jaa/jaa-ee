@@ -1707,10 +1707,6 @@ body {
   font-size: .9em; }
 
 @media (min-width: 768px) {
-  .mastfoot {
-    position: fixed;
-    bottom: 0; }
-
   .site-wrapper-inner {
     vertical-align: middle; }
 
