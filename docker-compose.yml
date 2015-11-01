@@ -1,7 +1,6 @@
-nginx:
-  image: tutum.co/anroots/jaa-web-v3
+jaa-ee:
+  image: improvjaa/jaa-ee
   ports:
-    - 80
-  environment:
-    VIRTUAL_HOST: jaa.ee
-  restart: on-failure:20
+    - 80:80
+  volumes:
+    - ./html:/usr/share/nginx/html:ro
