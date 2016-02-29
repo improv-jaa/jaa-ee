@@ -1,6 +1,7 @@
 {
     "name":"jaa-v3",
     "dependencies": {
-        "bootstrap-sass-official": ">= 3.3"
+        "bootstrap-sass": ">= 3.3",
+        "jquery-backstretch":">= 2.0"
     }
 }

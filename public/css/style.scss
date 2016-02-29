@@ -1,23 +1,23 @@
 // Core variables and mixins
-@import "../bower_components/bootstrap-sass/lib/variables";
-@import "../bower_components/bootstrap-sass/lib/mixins";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 // Reset
-@import "../bower_components/bootstrap-sass/lib/normalize";
-@import "../bower_components/bootstrap-sass/lib/print";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
 
 // Core CSS
-@import "../bower_components/bootstrap-sass/lib/scaffolding";
-@import "../bower_components/bootstrap-sass/lib/type";
-@import "../bower_components/bootstrap-sass/lib/code";
-@import "../bower_components/bootstrap-sass/lib/grid";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
 
 // Utility classes
-@import "../bower_components/bootstrap-sass/lib/utilities";
-@import "../bower_components/bootstrap-sass/lib/responsive-utilities";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 $text-color: #fff;
-$background-color: #000;
+$background-color: transparent;
 $footer-text-color: rgba(255,255,255,.7);
 $content-shadow-color: rgba(0, 0, 0, 0.6);
 $text-shadow: 0 1px 3px rgba(0,0,0,.5);
