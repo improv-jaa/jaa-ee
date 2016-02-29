@@ -1,5 +1,8 @@
 # jaa.ee Homepage
 
+[![Build Status][ico-travis]][link-travis]
+[![Total Downloads][ico-downloads]][link-downloads]
+
 This is the homepage for NPO Improgrupp Jaa! ([http://jaa.ee](http://jaa.ee)).
 
 ## Requirements
@@ -23,3 +26,9 @@ This will start a Nginx webserver image listening on port 80.
 # Licence
 
 Licenced under [Apache License 2.0](http://choosealicense.com/licenses/apache-2.0).
+
+[ico-downloads]: https://img.shields.io/packagist/dt/improv-jaa/jaa-ee.svg?style=flat-square
+[ico-travis]: https://img.shields.io/docker/pulls/improvjaa/jaa-ee.svg
+
+[link-travis]: https://travis-ci.org/improv-jaa/jaa-ee
+[link-downloads]: https://packagist.org/packages/improvjaa/jaa-ee
