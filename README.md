@@ -27,8 +27,8 @@ This will start a Nginx webserver image listening on port 80.
 
 Licenced under [Apache License 2.0](http://choosealicense.com/licenses/apache-2.0).
 
-[ico-downloads]: https://img.shields.io/packagist/dt/improv-jaa/jaa-ee.svg?style=flat-square
-[ico-travis]: https://img.shields.io/docker/pulls/improvjaa/jaa-ee.svg
+[ico-downloads]: https://img.shields.io/docker/pulls/improvjaa/jaa-ee.svg
+[ico-travis]: https://img.shields.io/travis/improv-jaa/jaa-ee.svg
 
 [link-travis]: https://travis-ci.org/improv-jaa/jaa-ee
 [link-downloads]: https://packagist.org/packages/improvjaa/jaa-ee
