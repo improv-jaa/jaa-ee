@@ -1598,7 +1598,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: transparent url("../img/bg_dark.jpg") no-repeat center center fixed;
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
