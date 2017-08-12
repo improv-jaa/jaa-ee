@@ -1,6 +1,9 @@
-jaa-ee:
-  image: improvjaa/jaa-ee
-  ports:
-    - 80:80
-  volumes:
-    - ./html:/usr/share/nginx/html:ro
+version: "3"
+services:
+  jaa-ee:
+    image: improvjaa/jaa-ee
+    ports:
+      - 8080:8080
+    build: .
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
