@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1598,7 +1598,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #000 url("../img/bg_dark.jpg") no-repeat center center fixed;
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

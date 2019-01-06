@@ -10,7 +10,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: $background-color url($bg-img) no-repeat center center fixed;
+  background-color: $background-color;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

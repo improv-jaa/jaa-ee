@@ -15,7 +15,7 @@
     <meta property="og:type"   content="website" />
     <meta property="og:url"    content="http://jaa.ee" />
     <meta property="og:title"  content="Jaa !mproteater" />
-    <meta property="og:image"  content="http://jaa.ee/img/cover.jpg" />
+    <meta property="og:image"  content="http://jaa.ee/img/logo_white.png" />
 
 </head>
 
@@ -31,17 +31,23 @@
                 <img src="img/logo.png" alt="Logo" id="logo" height="400" width="258"/>
 
                 <div class="content-box">
-                    <p class="lead">
-                        Oleme Jaa !mproteater, spontaanne ning lõbus grupp noori amatöörnäitlejaid. Pakume publikule
-                        improviseeritud teatrietendustega rõõmu ja draamat ning õpetame huvilistele improviseerimist.
+                    <p class="lead text-justify">
+                        Jaa !mproteater on Eesti teatrimaastikul tegutsenud aastast 2009 (enne 2016 nimega Improgrupp Jaa!).
+                        Olles üks esimesi ja vanimaid improteatreid Eestis, on Jaa!l olnud määrav osa kohaliku improkultuuri arendamisel ja suunamisel.
+                        Jaa! on andnud etendusi nii Eestis kui välismaal, toonud kohaliku publiku ette nii koolitajaid kui teatritruppe teistest riikidest ning korraldanud rahvusvahelist <a href="http://improfestival.ee/">improteatrite festivali Tilt.</a>
+                    </p>
+                    <p class="lead text-justify">
+                        Etenduste formaatides pakub Jaa! publikule võimalust saada osa nii lühivormi sketšidest kui pikavormi etendustest.
+                    </p>
+                    <p class="lead text-justify">
+                        Jaa !mproteater on alati valmis väljakutseteks ning otsib huviga uusi vorme ja võimalusi spontaansete teatrihetkede jagamiseks!
                     </p>
 
                     <p class="lead text-center links-group">
                         <a href="http://improv.ee/trupid/improgrupp-jaa/">
                             <strong>Mängukava</strong> </a> |
-                        <a href="http://kultuur.ee/index.php?option=com_content&amp;view=article&amp;id=569&amp;Itemid=620">
-                            <strong>Impro trennid</strong>
-                        </a> |
+                        <a href="http://improfestival.ee/">
+                            <strong>Tilt</strong> </a> |
                         <a href="https://www.facebook.com/jaaimproteater">
                             <strong>Facebook</strong>
                         </a>
@@ -68,7 +74,28 @@
 
 </div>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    document.getElementById('site-wrapper').style.display = "none";
+</script>
+<script src="bower_components/jquery/jquery.min.js"></script>
+<script src="bower_components/jquery-backstretch/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#site-wrapper').delay(500).fadeIn('slow');
+        $.backstretch([
+            "img/slider/1.jpg",
+            "img/slider/2.jpg",
+            "img/slider/3.jpg"
+        ], {duration: 6000, fade: 1400});
+    });
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26360249-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>
