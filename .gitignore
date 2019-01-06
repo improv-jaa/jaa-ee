@@ -1,5 +1,6 @@
 .idea/
-bower_components/
-vendor/
-public/css/.sass-cache/
-public/css/*.css.map
+src/css/.sass-cache/
+src/css/*.css.map
+public/bundle.js
+public/img/bundle*
+node_modules

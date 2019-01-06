@@ -1,13 +1,13 @@
 sudo: required
 language: node_js
 node_js:
-  - 5
+  - 11
 services:
   - docker
 before_install:
-  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - npm install -g bower
-  - bower install
+  - docker login -e="$DOCKER_EMAIL" -p="$DOCKER_PASSWORD"
+  - npm install
+  - ./node_modules/.bin/webpack
   - docker build -t improvjaa/jaa-ee .
 script:
   - docker push improvjaa/jaa-ee

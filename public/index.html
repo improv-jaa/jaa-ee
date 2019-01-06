@@ -10,7 +10,6 @@
 
     <title>Jaa !mproteater</title>
 
-    <link href="css/style.css" rel="stylesheet">
 
     <meta property="og:type"   content="website" />
     <meta property="og:url"    content="http://jaa.ee" />
@@ -74,28 +73,7 @@
 
 </div>
 
-<script type="text/javascript">
-    document.getElementById('site-wrapper').style.display = "none";
-</script>
-<script src="bower_components/jquery/jquery.min.js"></script>
-<script src="bower_components/jquery-backstretch/jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $('#site-wrapper').delay(500).fadeIn('slow');
-        $.backstretch([
-            "img/slider/1.jpg",
-            "img/slider/2.jpg",
-            "img/slider/3.jpg"
-        ], {duration: 6000, fade: 1400});
-    });
+<script src="bundle.js"></script>
 
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-26360249-1', 'auto');
-  ga('send', 'pageview');
-</script>
 </body>
 </html>
